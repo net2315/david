@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+  background-image: url("../../public/background\ light.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.tout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+}
+.main-title {
+  font-size: 120px;
+  margin: 0;
+}
+
+.play-button {
+  columns: 2;
+  width: 250px;
+  height: 100px;
+  margin: 30px 0px 0px 0px;
+}
+.Scoreboard_Button {
+  width: 250px;
+  columns: 2;
+  height: 100px;
+  margin: 0;
+}
+.game-images {
+  flex: 2;
+  display: flex;
+  margin-top: -22.5%;
+  margin-left: 57.83%;
+}
+
+.logo {
+  float: right;
+  margin-right: 480px;
+}
